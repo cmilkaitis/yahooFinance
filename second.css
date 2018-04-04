@@ -1,0 +1,27 @@
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: purple;
+}
+
+.img {
+    width: 40%;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
