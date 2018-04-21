@@ -15,16 +15,20 @@
             <a class="nav-item nav-link"  href="#">BLOG</a>
             <a class="nav-item nav-link"  href="#">LINKS</a>
             <a class="nav-item nav-link"  href="#">LINKS</a>
+             <!-- for uppercase letters in nav can also do text-transform:uppercase; or use bootstrap class "text-uppercase" -->
                 
         </nav>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-           <div class="container" style="height: 250px;">
+         <!-- not sure if this would be better, but maybe declaring the height in the div (nav one) above
+           then have the container be a percentage or use a class -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- set height here ex. height:250px; -->
+           <div class="container" style="height: 250px;"> <!-- then can use a bootstrap class to set the height ex. class="h-75" (75% of total height) -->
+          
                <div class="col-sm">
-
                </div>
                <div class="col-sm">
                    <a href="https://finance.yahoo.com/" target="_blank"><img src="https://vignette.wikia.nocookie.net/logopedia/images/5/54/Yahoo%21_7_Favicon.svg/revision/latest?cb=20130813122053" alt="Yahoo Finance" class="img"></a>
                    <h1 href="#" style="text-align: center; color: purple;">Financial Portfolio</h1>
+                   <!-- ^don't think this link will work, href has to be inside <h1> tag so: <h1><a href="#"></a></h1> -->
                    <p style="text-align: right; margin: 0; color: darkgrey;">Chris Milkaitis</p>
                 </div>
                <div class="col-sm">
@@ -34,7 +38,7 @@
        </nav>
        
        <div class="container">
-            <div class="col-sm" style="padding-top: 10px; padding-bottom: 10px;">
+            <div class="col-sm" style="padding-top: 10px; padding-bottom: 10px;">  <!-- Can use shorthand here for padding:10px 0 10px;  --> 
                 <h2 style="text-align: center; margin: 0;">Welcome Text</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laborum voluptas cumque? Nulla officia, quasi beatae accusantium iste consequuntur, hic, quia placeat reiciendis vel nisi inventore delectus necessitatibus. Nemo, totam?</p>
             </div>
@@ -44,7 +48,6 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, necessitatibus. Autem ducimus sequi, eos tempora fugit, qui velit aut pariatur a necessitatibus, quisquam earum molestias totam vero recusandae quibusdam? Laborum.</p>
                 </div>
                     
-                
                 <div class ="col-sm">
                     <h4 style="padding-bottom: 5px; text-align: center;">Contact me for available services.</h4>
                         <form>

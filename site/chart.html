@@ -16,16 +16,21 @@
             <a class="nav-item nav-link"  href="#">BLOG</a>
             <a class="nav-item nav-link"  href="#">LINKS</a>
             <a class="nav-item nav-link"  href="#">LINKS</a>
-                
+  <!-- for uppercase letters in nav you can also do text-transform:uppercase; or use bootstrap class "text-uppercase" -->
+
         </nav>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-           <div class="container" style="height: 250px;">
+           <!-- not sure if this would be better, but maybe declaring the height in the div (nav one) above
+           then have the container be a percentage or use a class -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">  <!-- could set height here ex. height:250px; -->
+           <div class="container" style="height: 250px;"> <!-- then can use a bootstrap class to set the height ex. class="h-75" (75% of total height) -->
                <div class="col-sm">
 
                </div>
                <div class="col-sm">
                    <a href="https://finance.yahoo.com/" target="blank"><img src="https://vignette.wikia.nocookie.net/logopedia/images/5/54/Yahoo%21_7_Favicon.svg/revision/latest?cb=20130813122053" alt="Yahoo Finance" class="img"></a>
                    <h1 href="#" style="text-align: center; color: purple;">Financial Portfolio</h1>
+                     <!-- ^ Don't think this link will work, href has to be inside <h1> tag so: <h1><a href="#"></a></h1> -->
+
                    <p style="text-align: right; margin: 0; color: darkgrey;">Chris Milkaitis</p>
                 </div>
                <div class="col-sm">
@@ -36,7 +41,7 @@
        
        <div class="container-outer">
             <div class="container-inner">
-                <table class ="table table-condensed table-hover table-striped">
+                <table class="table table-condensed table-hover table-striped">
                     <thead>
                         <th class="chart-name left-align" style="border-right:none">
                             <input type="checkbox" value="on"> Symbol</th>
@@ -193,7 +198,7 @@
                                                                         <th></th>
                                                                     </tr>
     
-                      
+                      <!-- You know about the spacing :) -->
                         
                     </tbody>
                 </table>
